@@ -24,3 +24,19 @@ A comprehensive informatics solution designed to track maintenance and operation
 Aloyce Dache (Backend developer)
 Joseph Ngatia (Frontend Developer)
 Anastacia Agumba (Database Designer)
+## Setup and Installation
+
+### 1. Frontend (Vite + React + TS)
+```bash
+cd frontend
+npm install
+npm run dev
+
+cd ../backend
+# Assuming you use Python/pip
+pip install -r requirements.txt
+python server.py
+# Navigate to database folder to run migrations or setup scripts
+cd ../database
+# Add your specific database startup command here
+
